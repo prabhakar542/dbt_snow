@@ -1,0 +1,10 @@
+
+version: 2
+sources:
+  - name: datafeed_shared_schema
+    database: "{{('sales')}}"
+    schema: dbt_source
+
+    tables:
+      - name: CUSTOMERS
+    
