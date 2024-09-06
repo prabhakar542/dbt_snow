@@ -1,4 +1,4 @@
-{{ config(materialized='table',target_schema ='dbt_trgt') }}
+{{ config(materialized='view') }}
 
 
 WITH tb1  as(
