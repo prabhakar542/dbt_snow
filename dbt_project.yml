@@ -32,4 +32,5 @@ models:
 
     stg_data:
       +materialized: table
-      
+
+    
